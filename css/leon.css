@@ -207,8 +207,9 @@ body {
 }
 .services .services-content {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 	grid-gap: 20px;
+	margin:30px;
 }
 .services .services-content .srv {
 	display: flex;
@@ -269,6 +270,7 @@ body {
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	grid-gap: 20px;
 	margin-top: 80px;
+	margin-left:60px;
 }
 .portofolio .portofolio-content .card {
 	background-color: white;
